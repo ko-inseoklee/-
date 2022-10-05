@@ -20,11 +20,13 @@ A new Flutter project.
 4. runner.xcworkspace를 실행하여 xcode로 진입합니다.
 5. 왼쪽 상단 폴더 아이콘 클릭 -> 최상단 Runner 클릭 -> 메뉴 중 Signing & Capabilities 클릭
 6. Automatically Manage Signing 체크하고 아래 팀 선택(애플 개발자 계정 필요) 후 빌드
+    
     6-1. 애플 정식 등록 계정이 있는 경우(IPA 파일 추출을 원하시는 경우 **결제 완료**된 애플 개발자 계정이 필요)
    1. 최상단 Xcode 메뉴 -> product -> Archieve 클릭
    2. 성공 후 우측 상단 Distribute App 클릭
    3. 네 가지 옵션 중 Development 클릭
    4. App Thinning All compatible device 클릭 후 다음으로 계속 진행(이후는 설정할 것 없음.)
+    
     6-2. 애플 결제 계정이 없는 경우(일반 사용자 등록은 필수 앱에 바로 설치하는 방식(미팅때와 같이))
       1. 일반 사용자 계정으로 팀 선택
       2. 중앙 상단 Runner 부분 클릭 -> Edit scheme 클릭
